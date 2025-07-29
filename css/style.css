@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+.recipe-links a {
+    text-decoration: none;  
+    color: white;
+}
+
+.recipe-links button {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(98, 30, 161);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
