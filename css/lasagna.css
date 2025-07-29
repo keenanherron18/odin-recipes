@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.header img {
+    padding-top: 50px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.ingredients-directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.ingredients-directions li, ol {
+    text-align: left;
+}
+
+.ingredients-directions ol {
+    margin-left: 200px;
+}
+
